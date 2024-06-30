@@ -18,7 +18,9 @@
 <body>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/home">Kalen's Site</a>
+      <a class="navbar-brand" href="/home">
+        <a class="navbar-brand ms-2 h1" href="/home"> <img src="app/views/resources/images/logo.svg" width="30" height="30" alt="logo" class ='me-1'>
+        Reminders</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
