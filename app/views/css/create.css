@@ -1,0 +1,23 @@
+body {
+  background-color:rgb(179, 200, 207);
+
+}
+.form-container {
+  /* max-width:800px; */
+  /* center form */
+  margin:auto;
+  background-color: white;
+  border-radius:15px;
+}
+
+.btn {
+/* Syntax for bootstrap */
+}
+
+.header{
+
+}
+
+.link {
+  text-decoration:none;
+}
