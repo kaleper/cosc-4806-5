@@ -1,25 +1,15 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Update Reminder</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<?php require_once 'app/views/templates/header.php'?>
     
-    <!-- **ADDRESSES CACHE ISSUE WHERE CSS DOESN'T LOAD** 
-     -->
-     <style>
-      <?php include "app/views/css/update_reminder.css" ?>
-    </style>
+<!-- **ADDRESSES CACHE ISSUE WHERE CSS DOESN'T LOAD** 
+ -->
+ <style>
+  <?php include "app/views/css/update_reminder.css" ?>
+</style>
 
-    <link rel="stylesheet" href="app/views/css/update_reminder.css"
-    
-    <!-- JS Pluigin -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</head>
+<link rel="stylesheet" href="app/views/css/update_reminder.css"
 
-<body>
-    <?php require_once 'app/views/templates/navbar.php' ?>
+<!-- JS Pluigin -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
     <div class="container main">
         <div class="row mt-4">
@@ -54,3 +44,5 @@
         </div>
     </div>
 </body>
+
+<?php require_once 'app/views/templates/footer.php'?>
