@@ -21,3 +21,6 @@ body {
 .link {
   text-decoration:none;
 }
+.navbar {
+  background-color:rgb(74, 97, 104);
+}
