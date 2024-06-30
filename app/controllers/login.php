@@ -19,6 +19,14 @@ class Login extends Controller {
 			if ($authenticated) {
 						//Store username in session variable
 						$_SESSION['username'] = $username;
+
+						$isAdmin = $user->isAdmin($username);
+
+						// Default for non-admin is 1
+						if ($isAdmin) {
+							$_SESSION['auth'] = 'admin';
+						}
+			
 						//Auth successful, redirect
 						header('Location: /home');
 						

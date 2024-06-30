@@ -106,4 +106,20 @@ class AuthUser {
       return false;
      
   }
+
+  public function isAdmin($username) {
+
+  $username = strtolower($username);
+  $db = db_connect();
+      $statement = $db->prepare("SELECT * from users WHERE username = :name;");
+      $statement->bindValue(':name', $username);
+      $statement->execute();
+      $rows = $statement->fetch(PDO::FETCH_ASSOC);
+
+    if ($rows['permission_id'] == 2) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }

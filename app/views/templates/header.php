@@ -2,6 +2,13 @@
   if (!isset($_SESSION['auth'])) {
     header('Location: /login');
   }
+  // Will not display reports if user is not an admin
+  $display_reports_tab = false;
+
+  if ($_SESSION['auth'] == 'admin') {
+    $display_reports_tab = true;
+  }
+    
 ?>
 <head>
   <!DOCTYPE html>
@@ -32,8 +39,16 @@
           <li class="nav-item">
             <a class="nav-link" href="/reminders">Reminders</a>
           </li>
+          <!-- Add reports to navigation bar if user is an admin -->
+          <?php 
+            if ($display_reports_tab) {
+              echo "<li class='nav-item'>
+                      <a class='nav-link' href='/reports'>Reports</a>
+                    </li>";
+            }
+          ?>
           <li class="nav-item">
-            <a class="nav-link" href="/logout">Logout</a></p>
+            <a class="nav-link" href="/logout">Logout</a>
           </li>
         </ul>
       </div>
