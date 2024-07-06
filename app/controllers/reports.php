@@ -17,12 +17,13 @@ class Reports extends Controller {
   }
 
   public function overview() {
-    $reports = $this->model('GenerateReports');
-    $report_list = $reports->get_all_reports();
 
+    $this->view('reports/overview');
+  }
 
-
-    $this->view('reports/overview', ['reports' =>$report_list]);
+  public function viewLogins() {
+ 
+    $this->view('reports/viewLogins');
   }
 }
 

@@ -2,10 +2,10 @@
 
 <!-- **ADDRESSES CACHE ISSUE WHERE CSS DOESN'T LOAD** -->
 <style>
-  <?php include "app/views/css/report_overview.css" ?>
+  <?php include "app/views/css/report_view_reminders.css" ?>
 </style>
 
-<link rel="stylesheet" href="app/views/css/report_overview.css"
+<link rel="stylesheet" href="app/views/css/report_view_reminders.css"
 
 <!-- JS Pluigin -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
