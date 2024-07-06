@@ -27,24 +27,19 @@
                   } 
               ?> 
         </div>
-            <div class="row">
-            <div class="col-4">
-              <div class="list-group" id="list-tab" role="tablist">
-                <a class="list-group-item list-group-item-action active" id="list-overview-list" data-bs-toggle="list" href="#list-overview" role="tab" aria-controls="list-overview">Overview</a>
-                <a class="list-group-item list-group-item-action" id="list-viewAllReminders-list" data-bs-toggle="list" href="#list-viewAllReminders" role="tab" aria-controls="list-viewAllReminders">View All Reminders</a>
-                <a class="list-group-item list-group-item-action" id="list-viewAllLogins-list" data-bs-toggle="list" href="#list-viewAllLogins" role="tab" aria-controls="list-viewAllLogins">View All Logins</a>
+            <div class="row justify-content-center">
+              <div class="col-6">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action" href="/reports/overview">Overview</a>
+                    <a class="list-group-item list-group-item-action" href="/reports/viewReminders">View All Reminders</a>
+                    <a class="list-group-item list-group-item-action" href="/reports/viewLogins">View All Logins</a>
+                </div>
               </div>
-            </div>
-            <div class="col-8">
-              <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="list-overview" role="tabpanel" aria-labelledby="list-overview-list">High level overview here</div>
-                <div class="tab-pane fade" id="list-viewAllReminders" role="tabpanel" aria-labelledby="list-viewAllReminderss-list">All reminder data</div>
-                <div class="tab-pane fade" id="list-viewAllLogins" role="tabpanel" aria-labelledby="list-viewAllLogins-list">All login data</div>
-              </div>
-            </div>
+            
             </div>
     </div>
   </div>
+  
                       
                       
 <?php require_once 'app/views/templates/footer.php'?>
