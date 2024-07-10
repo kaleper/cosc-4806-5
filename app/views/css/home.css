@@ -21,3 +21,8 @@ body {
 .navbar {
   background-color:rgb(74, 97, 104);
 }
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover; 
+}
