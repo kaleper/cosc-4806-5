@@ -14,7 +14,7 @@
   <div class="container main">
     <div class="row mt-4 text-center">
         <div class="col-lg-12 ">
-            <h4 class="">Reports</h4>      
+            <h3 class="h3">Reports</h3>      
               <!-- Informs user they have admin priviliges if logged in as admin -->
               <?php
                   if ($_SESSION['auth'] == 'admin') { 

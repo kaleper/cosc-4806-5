@@ -34,8 +34,8 @@
     <div class="container main">
         <div class="row mt-4">
             <div class="col-lg-12">
-                <h3 class="reminders">Reminders</h3>
-                <p> <a class="link" href="/reminders/create_reminder">Create a new reminder</a></p>
+                <h3 class="reminders text-center">Reminders</h3>
+                <p class="new-reminder-link text-center"> <a class="link " href="/reminders/create_reminder">Create a new reminder</a></p>
             </div>
         </div>
     </div>

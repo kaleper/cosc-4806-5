@@ -20,7 +20,9 @@
     <div class="container main">
         <div class="row mt-4">
             <div class="col-lg-12">
+                
                 <p> <a class="link" href="/reports/index">Back to Reports Menu</a></p>
+                <h3 class="h3 text-center">View Logins By All Users</h3>  
             </div>
 
             <!-- Form to view logins -->

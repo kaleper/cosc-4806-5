@@ -21,23 +21,15 @@
         <div class="row mt-4">
             <div class="col-lg-12">
                 <p> <a class="link" href="/reports/index">Back to Reports Menu</a></p>
+                <h3 class="h3 text-center">View Reminders By All Users</h3>  
             </div>
-
-            <!-- Form to create a reminder -->
+            <!-- View reports-->
             <div class="form row justify-content-center">
                 <div class="col-12 col-sm-10 col-md-9 col-xl-8">
-                    <div class="form-container text-center mt-5 mb-3 px-5 py-5">
-
-                            
-                                          <div>
-                                              <h2 class='sm-text'>View Reminders By All Users </p>
-                                          </div> 
-                                
-                            
-                            
+                    <div class="form-container text-center mt-5 mb-3 px-5 py-5">      
                         <?php
 
-                            // Creates a table of reminders if there are reminders associate with the user 
+                        // Creates a table of reminders if there are reminders associate with the user 
                             if (!$data['reports']) {
                                 echo
                                 "<div class='container text-center'>" .
