@@ -1,3 +1,9 @@
+<?php if ($_SESSION['auth'] != "admin") {
+    header('Location: home');
+    exit();
+  }
+?> 
+
 <?php require_once 'app/views/templates/header.php'?>
 
 <!-- **ADDRESSES CACHE ISSUE WHERE CSS DOESN'T LOAD** -->

@@ -22,8 +22,10 @@ class Reports extends Controller {
   }
 
   public function viewLogins() {
+    $reports = $this->model('GenerateReports');
+    $report_list = $reports->get_all_logins();
  
-    $this->view('reports/viewLogins');
+    $this->view('reports/viewLogins', ['logins' => $report_list]);
   }
 }
 

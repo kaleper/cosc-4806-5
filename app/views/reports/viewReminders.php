@@ -1,3 +1,9 @@
+<?php if ($_SESSION['auth'] != "admin") {
+    header('Location: home');
+    exit();
+  }
+?> 
+
 <?php require_once 'app/views/templates/header.php'?>
 
 <!-- **ADDRESSES CACHE ISSUE WHERE CSS DOESN'T LOAD** -->
@@ -22,6 +28,13 @@
                 <div class="col-12 col-sm-10 col-md-9 col-xl-8">
                     <div class="form-container text-center mt-5 mb-3 px-5 py-5">
 
+                            
+                                          <div>
+                                              <h2 class='sm-text'>View Reminders By All Users </p>
+                                          </div> 
+                                
+                            
+                            
                         <?php
 
                             // Creates a table of reminders if there are reminders associate with the user 
