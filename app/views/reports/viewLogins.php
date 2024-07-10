@@ -25,10 +25,10 @@
                 <h3 class="h3 text-center">View Logins By All Users</h3>  
             </div>
 
-            <!-- Form to view logins -->
-            <div class="form row justify-content-center">
+            <!-- View logins -->
+            <div class="login-container row justify-content-center">
                 <div class="col-12 col-sm-10 col-md-9 col-xl-8">
-                    <div class="form-container text-center mt-5 mb-3 px-5 py-5">
+                    <div class="login-container text-center mt-5px-5 py-5">
 
                         <?php
 

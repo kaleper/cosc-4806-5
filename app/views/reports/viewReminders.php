@@ -24,9 +24,9 @@
                 <h3 class="h3 text-center">View Reminders By All Users</h3>  
             </div>
             <!-- View reports-->
-            <div class="form row justify-content-center">
+            <div class="reminder-container row justify-content-center">
                 <div class="col-12 col-sm-10 col-md-9 col-xl-8">
-                    <div class="form-container text-center mt-5 mb-3 px-5 py-5">      
+                    <div class="reminder-container text-center mt-5px-5 py-5">      
                         <?php
 
                         // Creates a table of reminders if there are reminders associate with the user 

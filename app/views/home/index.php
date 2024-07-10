@@ -9,20 +9,20 @@
     <div class="container main">
         <div class="row mt-4">
             <div class="col-lg-12">
-                <h4 class="greeting">Welcome, <?= $_SESSION['username'] ?> </h4>      
+                <h3 class="greeting text-center">Welcome, <?= $_SESSION['username'] ?> </h3>      
 
                     <!-- Informs user they have admin priviliges if logged in as admin -->
                     <?php
                         if ($_SESSION['auth'] == 'admin') { 
                             echo "
                                     <div>
-                                        <p class='sm-text'>You have administrator privileges. </p>
+                                        <p class='sm-text text-center'>You have administrator privileges. </p>
                                     </div> 
                                 "
                             ;      
                         } 
                     ?> 
-                <p id="date"> <span id ="date-label">Today's Date:</span> <?= date("F jS, Y"); ?></p>
+                <p id="date" class= "text-center"> <span id ="date-label ">Today's Date:</span> <?= date("F jS, Y"); ?></p>
             </div>
         </div>
     </div>

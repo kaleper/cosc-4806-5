@@ -23,7 +23,7 @@
                 <p> <a class="link" href="/reports/index">Back to Reports Menu</a></p>
             </div>
 
-            <!-- Form to create a reminder -->
+            <!-- Overview text -->
             <div class="form row justify-content-center">
                 <div class="col-12 col-sm-10 col-md-9 col-xl-8">
                     <div class="form-container text-center mt-5 mb-3 px-5 py-5">
