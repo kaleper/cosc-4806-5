@@ -50,6 +50,9 @@
           <li class="nav-item">
             <a class="nav-link" href="/logout">Logout</a>
           </li>
+          <li class="nav-item">
+            <button class="btn btn-success text-light" type="submit">Free Trial</button>
+          </li>
         </ul>
       </div>
     </div>
