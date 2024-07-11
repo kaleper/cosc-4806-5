@@ -23,4 +23,13 @@ class GenerateReports {
       $rows = $statement->fetchAll(PDO::FETCH_ASSOC);
       return $rows;
     }
+
+    public function get_reminders_past_week () {
+      $db = db_connect();
+      // Selects all reminders from the past 7 days
+      $statement = $db->prepare(" SELECT * FROM notes WHERE created_at >= CURDATE() - INTERVAL 7 DAY ORDER BY created_at");
+      $statement->execute();
+      $rows = $statement->fetchAll(PDO::FETCH_ASSOC);
+      return $rows;
+    }
 }

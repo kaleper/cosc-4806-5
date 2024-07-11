@@ -17,9 +17,11 @@ class Reports extends Controller {
   }
 
   public function overview() {
-
-    $this->view('reports/overview');
+      $reports = $this->model('GenerateReports');
+      $reminders_past_week = $reports->get_reminders_past_week();
+      $this->view('reports/overview', ['reminders_past_week' => $reminders_past_week]);
   }
+
 
   public function viewLogins() {
     $reports = $this->model('GenerateReports');
