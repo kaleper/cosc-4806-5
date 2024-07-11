@@ -114,8 +114,14 @@
                                 },
                               scales: {
                                 y: {
-                                  beginAtZero: true
-                                }
+                                  beginAtZero: true,
+                                    ticks: {
+                                        // Display numbers on y axis in whole numbers only
+                                        stepSize: 1 
+                                    }
+                                },
+                                  
+                            
                               }
                             }
                             });
