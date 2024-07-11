@@ -21,6 +21,7 @@
         <div class="row mt-4">
             <div class="col-lg-12">
                 <p> <a class="link" href="/reports/index">Back to Reports Menu</a></p>
+                <h3 class="h3 text-center">Overview</h3>  
             </div>
 
             <!-- Will process all reminders from the past 7 days into an array to be used by the chart. -->
